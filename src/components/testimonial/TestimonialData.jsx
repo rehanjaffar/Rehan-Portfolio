@@ -1,7 +1,7 @@
-import avatar1 from "../../assets/images/Testimonials/avatar1.png";
-import avatar2 from "../../assets/images/Testimonials/avatar2.png";
-import avatar3 from "../../assets/images/Testimonials/avatar3.png";
-import avatar4 from "../../assets/images/Testimonials/avatar4.png";
+import avatar1 from "/src/assets/images/Testimonials/avatar1.png";
+import avatar2 from "/src/assets/images/Testimonials/avatar2.png";
+import avatar3 from "/src/assets/images/Testimonials/avatar3.png";
+import avatar4 from "/src/assets/images/Testimonials/avatar4.png";
 
 export const  testimonials = {
     title: "Testimonials",
