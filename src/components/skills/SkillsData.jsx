@@ -1,12 +1,12 @@
-import html from "/src/assets/images/Skills/html.png";
-import css from "/src/assets/images/Skills/css.png";
-import js from "/src/assets/images/Skills/js.png";
-import reactjs from "/src/assets/images/Skills/react.png";
-import nodejs from "/src/assets/images/Skills/node.png";
-import express from "/src/assets/images/Skills/express.png";
-import github from "/src/assets/images/Skills/github.png";
-import tailwind from "/src/assets/images/Skills/tailwind.png";
-import bootstrap from "/src/assets/images/Skills/bootstrap.png";
+import html from "../../assets/images/Skills/html.png";
+import css from "../../assets/images/Skills/css.png";
+import js from "../../assets/images/Skills/js.png";
+import reactjs from "../../assets/images/Skills/react.png";
+import nodejs from "../../assets/images/Skills/node.png";
+import express from "../../assets/images/Skills/express.png";
+import github from "../../assets/images/Skills/github.png";
+import tailwind from "../../assets/images/Skills/tailwind.png";
+import bootstrap from "../../assets/images/Skills/bootstrap.png";
 
 import { MdArrowForward} from "react-icons/md";
 

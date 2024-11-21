@@ -1,5 +1,5 @@
-import Hireme_person from "/src/assets/images/Hireme/person.png";
-import Hireme_person2 from "/src/assets/images/Hireme/person2.png";
+import Hireme_person from "../../assets/images/Hireme/person.png";
+import Hireme_person2 from "../../assets/images/Hireme/person2.png";
 export const hireme = {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",

@@ -1,4 +1,4 @@
-import Hero_person from "/src/assets/images/Hero/profile.png";
+import Hero_person from "../../assets/images/Hero/profile.png";
 
 export const hero = {
     title: "MERN STACK DEVELOPER",
