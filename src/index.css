@@ -9,6 +9,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 @layer base {
    html {
     scroll-behavior: smooth;
@@ -51,6 +54,11 @@
   }
 }
 
+
+.dark .swiper-pagination-bullet{
+   @apply bg-white
+  }
+
 @layer utilities {
   .btn {
     @apply py-2 px-9 border-2 rounded-md
@@ -67,13 +75,35 @@
   @apply w-3 h-3 bg-dark_primary;
 }
 
-@media screen and (min-width:330px) {
+@media screen and (min-width:280px) {
+  .name{
+    right: -35%;
+  }
+  .projectslide{
+    height: 15rem;
+  }
+}
+@media screen and (min-width:400px) {
   .name{
     right: -15%;
+  }
+  .projectslide{
+    height: 17rem;
+  }
+}
+@media screen and (min-width:480px) {
+  .name{
+    right: -5%;
+  }
+  .projectslide{
+    height: 19rem;
   }
 }
 @media screen and (min-width:530px) {
   .name{
     right: -5%;
+  }
+  .projectslide{
+    height: 20rem;
   }
 }

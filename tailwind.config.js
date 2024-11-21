@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "class",
   theme: {
     fontFamily: {
       Poppins: "Poppins",
@@ -19,6 +20,7 @@ module.exports = {
       },
       backgroundImage: {
         primaryLinear: "linear-gradient(180deg, #B6CCF5 0.48%, #D5E3F1 100%)",
+        darkLinear: "linear-gradient(110deg,rgb(0,37,84) 11%, rgba(0,37,84,.32)100%)",
       },
       dropShadow: {
         primary: "-5px 35px 40px rgba(223, 229, 236, 0.9)",
