@@ -2,7 +2,7 @@ import { hireme } from "./HiremeData";
 
 const Hireme = () => {
   return (
-    <section className="bg-bg_light_primary dark:bg-slate-800 dark:text-white">
+    <section className="bg-bg_light_primary dark:bg-slate-800 dark:text-white hireme">
       <div className="md:container px-5 pt-14 ">
         <h2 className="title text-teal-500" data-aos="fade-down">
           {hireme.title}

@@ -19,7 +19,7 @@ export const Hero = () => {
 
         {/* first column */}
         <div
-          className="pb-16 px-6 pt-5 dark:bg-slate-800 dark:text-white "
+          className="pb-16 px-6 pt-5 dark:z-40 dark:bg-slate-800 dark:text-white "
           data-aos="fade-down"
         >
           <h2 className="dark:text-white">{hero.title}</h2>

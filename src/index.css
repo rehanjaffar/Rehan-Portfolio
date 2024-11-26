@@ -59,6 +59,11 @@
    @apply bg-white
   }
 
+  .dark #home,#skills,#services,#projects,.testimonial,.hireme  {
+    border-bottom: 3px solid wheat
+  }
+
+
 @layer utilities {
   .btn {
     @apply py-2 px-9 border-2 rounded-md
