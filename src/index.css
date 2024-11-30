@@ -92,9 +92,7 @@
   .name{
     right: -15%;
   }
-  .projectslide{
-    height: 17rem;
-  }
+  
 }
 @media screen and (min-width:480px) {
   .name{
@@ -108,7 +106,5 @@
   .name{
     right: -5%;
   }
-  .projectslide{
-    height: 20rem;
-  }
+  
 }

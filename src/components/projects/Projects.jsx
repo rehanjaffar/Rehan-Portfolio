@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 const Projects = () => {
   return (
     <section id="projects" className="bg-bg_light_primary dark:bg-slate-800 dark:text-white">
-      <div className="md:container px-5 pt-14 min-h-screen flex flex-col justify-between">
+      <div className="md:container px-5 pt-14 flex flex-col justify-between">
         <div>
           <h2 className="title dark:text-teal-500" data-aos="fade-down">
             {projects.title}
@@ -38,7 +38,7 @@ const Projects = () => {
             spaceBetween={100}
             slidesPerView={1}
             modules={[Pagination]}
-            className="rounded-3xl md:h-80 sm:h-[21rem] projectslide max-w-[500px] drop-shadow-primary self-start"
+            className="rounded-3xl sm:min-h-[22rem] projectslide max-w-[500px] drop-shadow-primary self-start"
           >
             {projects.project_content.map((project, i) => {
               return (
