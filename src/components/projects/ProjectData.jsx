@@ -1,7 +1,7 @@
 
-const project1 = "/assets/images/projects/img1.png";
-const project2 = "/assets/images/projects/img2.png";
-const person_project = "/assets/images/projects/person.png";
+const project1 = "/assets/images/Projects/img1.png";
+const project2 = "/assets/images/Projects/img2.png";
+const person_project = "/assets/images/Projects/person.png";
 
 export const  projects = {
     title: "Projects",
