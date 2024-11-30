@@ -1,7 +1,7 @@
 
-import project1 from "/assets/images/projects/img1.png";
-import project2 from "/assets/images/projects/img2.png";
-import person_project from "/assets/images/projects/person.png";
+const project1 = "/assets/images/projects/img1.png";
+const project2 = "/assets/images/projects/img2.png";
+const person_project = "/assets/images/projects/person.png";
 
 export const  projects = {
     title: "Projects",
