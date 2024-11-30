@@ -1,5 +1,3 @@
-// import components
-
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -22,7 +20,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="dark:bg-slate-800 dark:text-white relative ">
+    <div className="dark:bg-slate-800 dark:text-white relative">
       <NavBar />
       <Hero />
       <Skills />

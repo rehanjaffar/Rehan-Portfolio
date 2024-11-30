@@ -3,13 +3,13 @@ import { hero } from "./HeroData";
 export const Hero = () => {
   return (
     <section id="home">
-      <div className="min-h-screen relative dark:bg-slate-800 flex md:flex-row flex-col-reverse md:items-end justify-center items-center">
+      <div className="pt-16 relative dark:bg-slate-800 flex md:flex-row flex-col-reverse md:items-end justify-center items-center">
         <div
           data-aos="slide-down"
           data-aos-delay="400"
           className="absolute z-10 bg-primaryLinear dark:bg-darkLinear f-full md:w-4/12 w-8/12 top-0 right-0  bottom-0"
         >
-          <h1 className="name rotate-90 absolute  top-[20%] md:top-[34%] lg:right-[-40%] right-[-35%] w-max text-[#eaf2fa]">
+          <h1 className="name rotate-90 absolute  top-[20%] md:top-[30%] lg:right-[-30%] right-[-35%] w-max text-[#eaf2fa]">
             {hero.firstName}
             <span className="text-dark_primary ml-3 dark:text-teal-500">
               {hero.LastName}
@@ -19,7 +19,7 @@ export const Hero = () => {
 
         {/* first column */}
         <div
-          className="pb-16 px-6 pt-5 dark:z-40 z-40 dark:bg-slate-800 dark:text-white "
+          className="pb-16 px-3 sm:px-6 w-full pt-5 dark:z-40 z-40 overflow-hidden dark:bg-slate-800 dark:text-white "
           data-aos="fade-down"
         >
           <h2 className="dark:text-white">{hero.title}</h2>

@@ -27,7 +27,7 @@
     @apply text-dark_primary;
   }
   h1 {
-    @apply font-Poppins lg:text-6xl text-3xl font-extrabold;
+    @apply font-Poppins lg:text-5xl text-3xl font-extrabold;
   }
   h2 {
     @apply font-Inria text-5xl font-bold;
