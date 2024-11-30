@@ -1,12 +1,19 @@
 
-import project2 from "/src/assets/images/projects/img2.png";
-import person_project from "/src/assets/images/projects/person.png";
+import project1 from "/assets/images/projects/img1.png";
+import project2 from "/assets/images/projects/img2.png";
+import person_project from "/assets/images/projects/person.png";
 
 export const  projects = {
     title: "Projects",
     subtitle: "MY CREATION",
     image: person_project,
     project_content: [
+      {
+        title: "Goli.com",
+        image: project1,
+        github: "https://github.com/rehanjaffar/",
+        netlify:"https://goli-com.vercel.app/"
+      },
       {
         title: "Dukan.com",
         image: project2,

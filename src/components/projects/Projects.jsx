@@ -2,7 +2,7 @@ import { projects } from "./ProjectData";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 
-import project1 from '../../assets/images/Projects/img2.png' 
+
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -46,7 +46,7 @@ const Projects = () => {
                   key={i}
                   className="bg-white dark:bg-teal-700 rounded-3xl p-5 border-b-8 border-[#faf9fd] h-fit"
                 >
-                  <img src={project1} className="" alt="..." />
+                  <img src={project.image} className="" alt="..." />
                   <div className="flex flex-col gap-1 mt-2">
                     <h5 className="font-bold font-Poppins text-2xl dark:text-white">{project.title}</h5>
                     <div className="flex justify-between">
