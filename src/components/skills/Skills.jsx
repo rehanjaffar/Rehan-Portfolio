@@ -1,7 +1,7 @@
 import { createElement, useState } from "react";
 import { skills } from "./SkillsData";
 import Modal from "react-modal";
-import { BiLeftArrow } from "react-icons/bi";
+
 
 const customStyles = {
   content: {
@@ -94,7 +94,7 @@ const Skills = () => {
                 </div>
                 <div>
                   <h6>{skill.name}</h6>
-                  <p className="italic">{skill.para}</p>
+                
                   <div
                     onClick={() => {
                       setSelectSkill(skill);
