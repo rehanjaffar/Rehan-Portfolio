@@ -1,11 +1,12 @@
 import { projects } from "./ProjectData";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 
 
 
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/autoplay";
 
 const Projects = () => {
   return (
@@ -37,7 +38,9 @@ const Projects = () => {
             data-aos="fade-up"
             spaceBetween={100}
             slidesPerView={1}
-            modules={[Pagination]}
+            loop={true}
+            modules={[Pagination,Autoplay]}
+            autoplay={true}
             className="rounded-3xl sm:min-h-[22rem] projectslide max-w-[500px] drop-shadow-primary self-start"
           >
             {projects.project_content.map((project, i) => {
