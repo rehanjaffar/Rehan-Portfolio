@@ -4,7 +4,8 @@ const DarkButton = "/assets/images/darkmode/dark-mode-button.png";
 
 const DarkMode = () => {
   const [theme, setTheme] = React.useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
+    window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light"
+
   );
 
   const element = document.documentElement; // html element
