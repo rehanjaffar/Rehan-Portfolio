@@ -15,12 +15,12 @@ export const  skills= {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "PHP",
+        name: "Phython",
         
         logo: php,
       },
       {
-        name: "Laravel",
+        name: "Machine Learning",
        
         logo: laravel,
       },
@@ -55,7 +55,7 @@ export const  skills= {
         logo: tailwind,
       },
       {
-        name: "Bootstrap CSS",
+        name: "Deep Learning",
     
         logo: bootstrap,
       },
