@@ -14,15 +14,21 @@ export const  skills= {
     title: "Skills",
     subtitle: "MY TOP SKILLS",
     skills_content: [
-      {
-        name: "Phython",
-        
-        logo: php,
-      },
+      
       {
         name: "Machine Learning",
        
         logo: laravel,
+      },
+       {
+        name: "Deep Learning",
+    
+        logo: bootstrap,
+      },
+      {
+        name: "Phython",
+        
+        logo: php,
       },
       {
         name: "JavaScript",
@@ -54,11 +60,7 @@ export const  skills= {
   
         logo: tailwind,
       },
-      {
-        name: "Deep Learning",
-    
-        logo: bootstrap,
-      },
+     
     ],
     icon: MdArrowForward,
   }
