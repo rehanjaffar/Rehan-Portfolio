@@ -26,7 +26,7 @@ export default function NavBar() {
       </div>
       <nav
         className={`fixed z-[999] flex items-center gap-5 bg-slate-200/60 px-6 py-3 backdrop:blur-md rounded-full text-dark_primary duration-300 ${
-          showMenu ? "md:bottom-10 bottom-32" : "bottom-[-100%]"
+          showMenu ? "md:bottom-2 bottom-2" : "bottom-[-100%]"
         }`}
       >
         {nav.map((item, i) => {
