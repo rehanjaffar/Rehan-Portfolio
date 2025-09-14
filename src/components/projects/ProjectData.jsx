@@ -16,6 +16,12 @@ export const  projects = {
         netlify:"https://goli-com.vercel.app/"
       },
       {
+        title: "Resume-generator",
+        image: project4,
+        github: "https://github.com/rehanjaffar/Resume-generator",
+        netlify:"https://resume-generator-theta-bay.vercel.app/"
+      },
+      {
         title: "Dukan.com",
         image: project2,
         github: "https://github.com/rehanjaffar/Dukan.com",
