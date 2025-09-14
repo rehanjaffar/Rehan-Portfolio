@@ -2,6 +2,7 @@
 const project1 = "/assets/images/Projects/img1.png";
 const project2 = "/assets/images/Projects/img2.png";
 const project3 = "/assets/images/Projects/img3.png";
+const project4 = "/assets/images/Projects/img4.png";
 const person_project = "/assets/images/Projects/person.png";
 
 export const  projects = {
